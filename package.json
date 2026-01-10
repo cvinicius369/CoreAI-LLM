@@ -1,0 +1,17 @@
+{
+  "name": "ia-api",
+  "version": "1.0.0",
+  "description": "API de IA local integrada ao Ollama",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["ia", "ollama", "api", "node"],
+  "author": "Caio Vinícius",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
